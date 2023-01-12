@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "com.server.Server",
+            "args": "C:/Users/henna/ohjelmointi3/group-0070-project/server/keystore.jks tamaonpassword"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "com.server.Server",
+            "projectName": "server",
+            "args": "C:/Users/henna/ohjelmointi3/group-0070-project/server/keystore.jks tamaonpassword"
+        }
+    ]
+}
