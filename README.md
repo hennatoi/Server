@@ -3,10 +3,15 @@ It is a simple server that uses the following contents: Databases, database prog
 
 
 -When the server starts, it opens the database and creates the database and tables, if necessary.
+
 -Functionality to add the user registration data to the database.
+
 -Check if username is registered before inserting a new user. Insert a new registered user to database if not registered already.
+
 -Validate users based on data in database. Check if user who sent the request is a valid user (username and password match).
+
 -Insert new coordinates to database. Create a method for that in CoordinateDatabase, to store coordinates to a database table.
+
 -Read coordinates from the database. 
 
 
